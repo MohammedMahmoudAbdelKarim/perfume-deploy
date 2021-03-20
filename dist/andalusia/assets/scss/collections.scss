@@ -1,0 +1,159 @@
+#collection {
+  h2 {
+    letter-spacing: 12px;
+    font-size: 5rem;
+  }
+  h6 {
+    font-size: 1.875rem;
+    letter-spacing: 4.5px;
+  }
+  header {
+    background: url("assets/imgs/collections/bg.png");
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 5.875rem 0;
+  }
+  .products {
+    padding: 50px 0;
+    background: url("assets/imgs/collections/Flowers.svg");
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .card {
+    background: transparent;
+    border: 0;
+    min-height: 370px;
+    cursor: pointer;
+    transition: 0.5s all ease-in-out;
+    .default-state {
+      opacity: 1;
+      transition: 0.5s all ease-in-out;
+    }
+    .hover-state {
+      transition: 0.5s all ease-in-out;
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      opacity: 0;
+    }
+    &:hover {
+      .default-state {
+        opacity: 0;
+      }
+      .hover-state {
+        opacity: 1;
+        z-index: 9;
+      }
+    }
+    .add-to-cart {
+      width: 190px;
+      transition: 0.3s all ease-in-out;
+      .default-btn-state {
+        display: flex;
+      }
+      .hover-btn-state {
+        display: none;
+      }
+      svg {
+        font-size: 1.5rem;
+      }
+      &:hover {
+        .default-btn-state {
+          display: none;
+        }
+        .hover-btn-state {
+          display: flex;
+        }
+      }
+    }
+  }
+  .body-card {
+    span {
+      font-size: 1.25rem;
+    }
+  }
+  .floernce {
+    background: url("assets/imgs/collections/bg-2.png");
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 5.875rem 0;
+  }
+  .flornce-bg {
+    padding: 50px 0;
+    background: url("assets/imgs/collections/Flowers.svg") #f7f6f2;
+    background-attachment: fixed;
+    background-size: cover;
+    .card {
+      background: transparent;
+      border: 0;
+    }
+    .body-card {
+      span {
+        font-size: 1.25rem;
+      }
+    }
+  }
+
+  .best-selling {
+    background: url("assets/imgs/collections/bg-3.png");
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 5.875rem 0 12.63rem 0;
+    h2 {
+      font-size: 1.625rem;
+      letter-spacing: 3.9px;
+    }
+    h6 {
+      letter-spacing: 0.64px;
+      font-size: 1rem;
+    }
+  }
+  .sticky-products {
+    position: relative;
+    top: -89px;
+    background: #ffff;
+  }
+}
+.best-selling-bg {
+  background: #f7f6f2;
+}
+.mlRadio .mat-radio-container {
+  display: none;
+}
+.mat-radio-button.mat-accent.mat-radio-checked {
+  background: rgba(171, 31, 13, 0.2);
+  color: $primary;
+  font-weight: 900;
+  border-radius: 15px;
+}
+.mat-radio-label {
+  margin-bottom: 0;
+}
+.mat-radio-label-content {
+  border-radius: 15px;
+  &:hover {
+    background: $primary;
+    color: $white !important;
+    span {
+      color: $white !important;
+    }
+  }
+  span {
+    color: #a3a3a3;
+  }
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+}
+
+.mlRadio .mat-radio-button .mat-radio-ripple {
+  height: 20px;
+  width: 20px;
+  left: calc(50% - 10px);
+  top: calc(50% - 10px);
+}
+.fa-heart {
+  color: #e99a57;
+  font-size: 2rem;
+}

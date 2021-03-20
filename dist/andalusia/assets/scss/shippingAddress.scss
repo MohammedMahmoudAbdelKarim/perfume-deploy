@@ -1,0 +1,22 @@
+.address {
+  .info {
+    span {
+      color: #868686;
+    }
+  }
+  .default-address {
+    color: #868686;
+  }
+  .set-default-address {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .action-btns {
+    button {
+      background: none;
+      border: 0;
+      text-decoration: underline;
+      color: #3b3b3b;
+    }
+  }
+}

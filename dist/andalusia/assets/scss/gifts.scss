@@ -1,0 +1,171 @@
+#gifts {
+  background: #f7f6f2;
+
+  header {
+    background: url("assets/imgs/gifts/header.png");
+    padding: 20rem 0 2rem 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    .sticky-card {
+      padding: 5rem;
+      backdrop-filter: blur(20px);
+
+      .museum-gift-card {
+        background: url(assets/imgs/gifts/Gift-Card.svg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 15px;
+
+        h3.gift-amount {
+          font-size: 1.5rem;
+          letter-spacing: 1.92px;
+          position: absolute;
+          top: 117px;
+          left: 63px;
+        }
+
+        span {
+          letter-spacing: 0.96px;
+          font-size: 0.75rem;
+          opacity: 0.8;
+        }
+      }
+
+      .make-gift-card {
+        h4 {
+          font-size: 1.25rem;
+        }
+
+        .radio-toolbar input[type="radio"] {
+          opacity: 0;
+          position: fixed;
+          width: 0;
+        }
+
+        .radio-toolbar label {
+          display: inline-block;
+          background-color: transparent;
+          padding: 9px 20px;
+          font-size: 16px;
+          border-radius: 20px;
+          cursor: pointer;
+          margin: 0 5px;
+          border: 1px solid #fafafa;
+        }
+
+        .radio-toolbar label:hover {
+          background-color: $primary;
+        }
+
+        .radio-toolbar input[type="radio"]:focus + label {
+          border: 2px solid $primary;
+        }
+
+        .radio-toolbar input[type="radio"]:checked + label {
+          background-color: rgba(171, 31, 13, 0.4);
+          border-color: $primary;
+        }
+
+        .qty {
+          background: transparent;
+          margin: 20px 5px;
+          border: 1px solid $white;
+
+          button {
+            cursor: pointer;
+            margin: 4px 18px;
+            border: 0;
+            width: 28px;
+            background: 0;
+            font-size: 1.1rem;
+            color: $white;
+          }
+        }
+
+        .add-to-cart {
+          transition: 0.3s all ease-in-out;
+
+          .default-state {
+            display: flex;
+          }
+
+          .hover-state {
+            display: none;
+          }
+
+          svg {
+            font-size: 1.5rem;
+          }
+
+          &:hover {
+            .default-state {
+              display: none;
+            }
+
+            .hover-state {
+              display: flex;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 320px) and (max-width: 425px) {
+  #gifts {
+    header {
+      .sticky-card {
+        padding: 1rem;
+        .museum-gift-card {
+          min-height: 144px;
+          h3.gift-amount {
+            font-size: 1rem;
+            letter-spacing: 1.92px;
+            position: absolute;
+            top: 109px;
+            left: 34px;
+          }
+        }
+        .radio-toolbar {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .make-gift-card {
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+// Tablet
+@media (min-width: 426px) and (max-width: 768px) {
+  #gifts {
+    header {
+      .sticky-card {
+        padding: 1rem;
+        .museum-gift-card {
+          min-height: 144px;
+          h3.gift-amount {
+            font-size: 1rem;
+            letter-spacing: 1.92px;
+            position: absolute;
+            top: 109px;
+            left: 34px;
+          }
+        }
+        .radio-toolbar {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .make-gift-card {
+          text-align: center;
+        }
+      }
+    }
+  }
+}

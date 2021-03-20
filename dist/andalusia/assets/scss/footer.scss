@@ -1,0 +1,46 @@
+footer {
+  z-index: 1020;
+
+  .social-media {
+    div {
+      height: 38px;
+      width: 38px;
+      background: rgba(59, 59, 59, 0.1);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: 0.5s all ease-in-out;
+      i,
+      svg {
+        font-size: 18px;
+      }
+      &:hover {
+        background: $primary;
+      }
+    }
+  }
+  .links {
+    li {
+      a {
+        text-transform: uppercase;
+        color: #3b3b3b;
+        opacity: 0.5;
+        font-weight: 600;
+        text-decoration: none;
+        transition: 0.5s all ease-in-out;
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+.copy-right {
+  background: #f7f6f2;
+  p {
+    color: #a3a3a3;
+    text-transform: uppercase;
+  }
+}

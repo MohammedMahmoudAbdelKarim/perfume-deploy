@@ -1,0 +1,18 @@
+.btn-primary {
+  background: $primary;
+  border: 1px solid $primary !important;
+  span {
+    color: $white;
+  }
+}
+.btn-secondary {
+  background: $white !important;
+  color: $primary !important;
+  border: 1px solid $primary !important;
+  transition: 0.5s all ease-in-out;
+  font-weight: 600;
+  &:hover {
+    background: $primary !important;
+    color: $white !important;
+  }
+}

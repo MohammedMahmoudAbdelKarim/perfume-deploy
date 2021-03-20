@@ -1,0 +1,95 @@
+// Variables
+@import "./theme/variables";
+
+// Buttons
+@import "./theme/buttons.scss";
+
+// Fonts
+@import "./theme/fonts.scss";
+
+// Bootstrap Theme
+@import "./theme/bootstrapTheme.scss";
+
+// Material Theme
+@import "./theme/materialTheme.scss";
+
+// Forms Theme
+@import "./theme/forms.scss";
+
+// Headers Theme
+@import "./theme/headers.scss";
+
+// Header Component
+@import "./header.scss";
+
+// Footer Component
+@import "./footer.scss";
+
+// Account Component
+@import "./account.scss";
+
+// Checkout Component
+@import "./checkout.scss";
+
+// DownloadAppComponent
+@import "./downloadApp.scss";
+
+// Container
+@import "./container.scss";
+
+// Modals
+@import "./modals.scss";
+
+// Login
+@import "./login.scss";
+
+// Register
+@import "./register.scss";
+
+// Cart
+@import "./cart.scss";
+
+// Gifts
+@import "./gifts.scss";
+
+// About
+@import "./collections.scss";
+
+// Product Details
+@import "./product-details.scss";
+
+// Shipping Address
+@import "./shippingAddress.scss";
+
+// Favoureites
+@import "./favourites.scss";
+
+// FAQ
+@import "./faq.scss";
+
+// Home
+@import "./home.scss";
+
+// Global Styles
+@import "./global.scss";
+
+// JUST FOR REFERENCE
+// Mobile
+@media (min-width: 320px) and (max-width: 425px) {
+}
+
+// Tablet
+@media (min-width: 426px) and (max-width: 768px) {
+}
+
+// Small Laptop
+@media (min-width: 769px) and (max-width: 1024px) {
+}
+
+// Large Laptop
+@media (min-width: 1025px) and (max-width: 1440px) {
+}
+
+// 4K
+@media (min-width: 1441px) and (max-width: 2560px) {
+}

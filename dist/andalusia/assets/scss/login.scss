@@ -1,0 +1,70 @@
+#login {
+  background: #f7f6f2;
+  .bardcrum {
+    .module {
+      cursor: pointer;
+      color: #a3a3a3;
+    }
+  }
+  .card {
+    border: 0;
+    border-radius: 0;
+    .login-info {
+      padding: 3.813rem 6.438rem;
+      h3 {
+        color: $dark;
+        font-size: 1.5rem;
+      }
+      p {
+        color: $dark;
+        font-weight: 600;
+      }
+      .forget-password {
+        a {
+          color: #868686;
+        }
+      }
+      .no-account {
+        span {
+          color: #868686;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 320px) and (max-width: 425px) {
+  #login {
+    .card {
+      .login-info {
+        padding: 1.813rem 2.438rem;
+      }
+    }
+  }
+}
+
+// Tablet
+@media (min-width: 426px) and (max-width: 768px) {
+  #login {
+    .card {
+      .login-info {
+        padding: 1.813rem 2.438rem;
+      }
+    }
+  }
+}
+
+// Small Laptop
+@media (min-width: 769px) and (max-width: 1024px) {
+  #login {
+    .card {
+      .login-info {
+        padding: 1.813rem 2.438rem;
+      }
+    }
+  }
+}
+.register {
+  a {
+    text-decoration: none;
+  }
+}

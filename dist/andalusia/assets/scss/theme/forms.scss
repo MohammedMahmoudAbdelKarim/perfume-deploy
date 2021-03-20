@@ -1,0 +1,55 @@
+.theme-input {
+  background: $white 0% 0% no-repeat padding-box;
+  border: 1px solid #d1d5d6;
+  border-radius: 0;
+  color: #868686;
+  font-size: 1rem;
+}
+::placeholder {
+  color: #868686 !important;
+  font-family: unset;
+}
+
+.theme-error {
+  background-color: $danger;
+  color: $white;
+  padding: 0.3rem 0.8rem;
+  margin-top: 0.2rem;
+}
+.mat-checkbox-inner-container {
+  background-color: $white;
+}
+.iti.iti--allow-dropdown {
+  width: 100%;
+}
+// Mat Radio Button
+.mat-radio-button {
+  display: block !important;
+  font-family: unset;
+}
+.owl-nav.disabled {
+  display: block !important;
+  position: absolute;
+  top: 200px;
+  width: 100%;
+  button {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: $white !important;
+    font-size: 1.8rem !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px ​0px 20px rgba(0, 0, 0, 0.1);
+    outline: 0;
+    span {
+      color: #868686;
+    }
+  }
+  .owl-next {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}

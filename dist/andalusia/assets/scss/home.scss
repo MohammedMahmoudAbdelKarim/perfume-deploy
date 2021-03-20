@@ -1,0 +1,174 @@
+#home {
+  h2 {
+    font-size: 4rem;
+  }
+  p.collect {
+    font-size: 2rem;
+  }
+  .view-collection {
+    padding: 0.8125rem 1.625rem;
+  }
+  .carousel-indicators {
+    justify-content: flex-end;
+    li {
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+    }
+  }
+  .carousel-caption {
+    text-align: unset;
+    right: unset;
+    left: unset;
+  }
+  .art-nuovue {
+    background: #f7f6f2;
+    h3 {
+      color: #3b3b3b;
+      font-weight: 600;
+      font-size: 2rem;
+    }
+    span {
+      font-size: 1.25rem;
+      color: #a3a3a3;
+    }
+  }
+  .shop-art {
+    h3 {
+      letter-spacing: 5.1px;
+      font-size: 2.125rem;
+      color: #3b3b3b;
+    }
+    span.collection {
+      font-size: 1.125rem;
+      color: #3b3b3b;
+    }
+  }
+  .home-collection {
+    h4 {
+      color: #3b3b3b;
+      font-size: 1.375rem;
+    }
+    span {
+      font-size: 1.25rem;
+    }
+    button {
+      padding: 0.75rem 1.875rem;
+      span {
+        font-size: 1rem;
+      }
+    }
+    .radio-toolbar {
+      input[type="radio"] {
+        opacity: 0;
+        position: fixed;
+        width: 0;
+      }
+      label {
+        display: inline-block;
+        background-color: transparent;
+        padding: 3px 12px;
+        font-size: 0.8125rem;
+        border-radius: 20px;
+        cursor: pointer;
+        color: #a3a3a3;
+        margin: 0 5px;
+        border: 1px solid #fafafa;
+        &:hover {
+          background-color: $primary;
+          color: $white;
+        }
+      }
+    }
+    .radio-toolbar input[type="radio"]:checked + label {
+      background-color: rgba(171, 31, 13, 0.2);
+      color: $primary;
+      font-weight: 600;
+    }
+  }
+  .view-all {
+    outline: 0;
+    span {
+      color: #737373;
+      font-size: 1rem;
+    }
+  }
+  .art-nuovue-bg {
+    background: url("assets/imgs/home/co-1.png");
+    background-size: cover;
+    padding: 20rem 0;
+    h3 {
+      font-size: 3rem;
+    }
+    span {
+      font-size: 1.5rem;
+    }
+  }
+  .florence-bg {
+    .florence {
+      background: $primary;
+      padding: 10rem 7rem;
+      span {
+        font-size: 1.813rem;
+      }
+    }
+    button {
+      background: $white;
+      color: $primary;
+      border: 0;
+      transition: 0.5s all ease-in-out;
+      &:hover {
+        background: $primary;
+        color: $white;
+      }
+    }
+  }
+  .florence-bg-2 {
+    background: url("assets/imgs/home/co-2.png");
+    background-size: cover;
+    background-position: right;
+    .florence-co-2 {
+      background: url("assets/imgs/home/img.svg");
+      background-size: cover;
+      padding: 10rem 7rem;
+      span {
+        font-size: 1.813rem;
+      }
+    }
+  }
+  .art-nuovue-bg-2 {
+    background: url("assets/imgs/gifts/header.png");
+    background-size: cover;
+    background-position: right;
+    padding: 12rem 0;
+    h3 {
+      font-size: 3rem;
+    }
+    span {
+      font-size: 1.5rem;
+    }
+  }
+  .shop-by-collection {
+    background: #f7f6f2;
+  }
+}
+@media (min-width: 320px) and (max-width: 425px) {
+  #home {
+    .florence-bg {
+      .florence {
+        padding: 10rem 0;
+      }
+    }
+  }
+  #home {
+    .florence-bg-2 {
+      .florence-co-2 {
+        padding: 10rem 0;
+      }
+    }
+  }
+}
+
+// Tablet
+@media (min-width: 426px) and (max-width: 768px) {
+}

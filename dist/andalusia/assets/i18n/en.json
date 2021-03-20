@@ -1,0 +1,165 @@
+{
+  "GENERAL": {
+    "BACK": "Back"
+  },
+  "HEADER": {
+    "HOME": "Home",
+    "COLLECTION": "Collection",
+    "BEST_SELLING": "Best Selling",
+    "GITS": "Gifts",
+    "BRAND": "The Brand",
+    "YOUR_CART": "Your Cart",
+    "LOGIN": "Login",
+    "LOGOUT": "Logout",
+    "REGISTER": "Register"
+  },
+  "FOOTER": {
+    "RETAILER": "Become a retailer",
+    "CUSTOMER": "Customer Service",
+    "DELIVERY": "Delivery",
+    "TERMS": "Terms & Condtions",
+    "CONTACT_US": "Email us",
+    "PRIVACY": "Privacy Policy",
+    "CHAT": "Chat Now"
+  },
+  "FORM": {
+    "NAME": "Enter Your Name",
+    "FNAME": "First Name",
+    "LNAME": "Last Name",
+    "TITLE": "Title",
+    "SEND": "Send",
+    "MESSAGE": "Type Your Message Here...",
+    "SELECT_REASON": "Choose Reason",
+    "SUBMIT": "Submit",
+    "FORGET_PASSWORD": "Forgot password?",
+    "LOGIN": "Login",
+    "NO_ACCOUT": "Don't have an account?",
+    "EMAIL": "Email Address",
+    "CONFIRM_EMAIL": "Confirm your email",
+    "PASSWORD": "Password",
+    "CONFIRM_PASSWORD": "Confirm Password",
+    "OLD_PASSWORD": "Old Password",
+    "PHONE": "Phone Number",
+    "AGREE": "I agree that i've carefully read the",
+    "TERMS": "Terms and Conditions",
+    "HAVE_ACCOUNT": "Already have account?",
+    "REGISTER": "Register",
+    "CREATE_ACCOUNT": "Create Account",
+    "RESET_PASSWORD": "Reset Password",
+    "BACK_TO_LOGIN": "Back To Login",
+    "COUNTRY": "Country",
+    "CITY": "City",
+    "CODE": "Code",
+    "ADDRESS": "Address",
+    "GENERAL": "General Question",
+    "REFFERAL": "Referral Question",
+    "PURCHASE": "Purchase Question",
+    "REFUND": "Refund Question",
+    "PHONE": "Phone Number",
+    "ENTER_EMAIL_AND_PASSWORD": "Please enter your email and password",
+    "SEND_MESSAGE": "Send your message",
+    "FORGET_PASSWORD": "Forgot password",
+    "EMAIL_TO_RESET": "Please enter your email address to reset your password",
+    "EMAIL_SEND": "Email Send",
+    "CHECK_EMAIL": "Kindly Check your email",
+    "RESET_LINK": "For reset link",
+    "BACK_TO_LOGIN": "Back To Login"
+  },
+  "CART": {
+    "EMPTY": "Your Cart is Empty",
+    "BACK": "Back",
+    "ORDER_DETAILS": "Order Details",
+    "PRODUCT_NAME": "Product Name:",
+    "PRODUCT_QUANTITY": "Product Quantity:",
+    "DISCOUNT": "Discount:",
+    "PRODUCT_PRICE": "Product Price:",
+    "TOTAL_PRODUCT_PRICE": "Total Products Price:",
+    "TOTAL_AMOUNT": "Total Amount",
+    "PLACE_ORDER": "Place Order",
+    "REMOVE": "Remove",
+    "APPLY_COUPON": "Add Coupon ",
+    "HAVE_COUPON": "Do you have a Coupon?"
+  },
+  "PROFILE": {
+    "UPLOAD": "Upload",
+    "NOT_VERIFIED": "Not Verified",
+    "VERIFIED": "Verified",
+    "ORDER_HISTORY": "Order History",
+    "EDIT": "Edit Profile",
+    "BUY": "Buy Now",
+    "NO_ORDERS": "No Orders Yet",
+    "SAVE": "Save Changes",
+    "EMAIL": "Email :",
+    "PHONE": "Phone :"
+  },
+  "COUNTERS": {
+    "USERS": "Users",
+    "DOWNLOADS": "Downloads",
+    "GAMES": "Games"
+  },
+  "DOWNLOADAPP": {
+    "DOWNLOADAPP": "Download App",
+    "DOWNLOAD_DETAILS": "Zero gaming applications are the most powerful educational applications with very great flow, seeking to provide the strongest and best experience in adding features to the games to improve the level of play. The easiest and smoothest applications with a simple interface, very easy use and the experience of the great development team is another reason that makes you use our applications, you will not find them easier to use. These applications have been programmed to improve the level of play by adding more features than those found in some games that some developers may neglect to add. But nothing is impossible, as we have added everything that will improve your experience and knowledge in those games so that you can get great pleasure when you use these features on these games..",
+    "DOWNLOADNOW": "Download Now"
+  },
+  "PRODUCTS": {
+    "OUR_PRODUCTS": "Our Products",
+    "ADD_CART": "Add to Cart"
+  },
+  "ORDER_HISTORY": {
+    "ORDER_ID": "Order Id",
+    "DATE": "Date",
+    "PRICE": "Price",
+    "STATUS": "Status",
+    "ACTIONS": "Actions",
+    "NEW": "New",
+    "CANCELED": "Canceled",
+    "VIEW": "View"
+  },
+  "NOT_FOUND": {
+    "PAGE_NOT_FOUND": "Page Not Found!"
+  },
+  "QUESTIONS": {
+    "FAQ": "Frequently Asked Questions"
+  },
+  "ACCOUNT": {
+    "MY_ACCOUNT": "My Account",
+    "EDIT_ACCOUNT": "You can edit your account information.",
+    "GENDER": "Gender",
+    "BIRTHDATE": "Date Of Birth",
+    "UPDATE_INFO": "Update Info",
+    "SELECT_GENDER": "Select Gender"
+  },
+  "FAVOURITE": {
+    "MY_FAVOURITES": "My Favourites",
+    "FAV_PARAGRAPH": "Your favorites perfumes in just one place!"
+  },
+  "MENU": {
+    "ACCOUNT:": "My Account",
+    "SHIPPING_ADDRESS": "Shipping Address",
+    "MY_ORDERS": "My Orders",
+    "MANAGE_ORDERS": "Manage and view your orders",
+    "PAYMENT": "Payment Methods",
+    "CHANGE_PASSWORD": "Change Password",
+    "MAKE_SECURE": "Make a secure password for your account",
+    "NEW_PASSWORD": "New Password",
+    "CONFIRM_PASSWORD": "Confirm New Password",
+    "MANAGE_ADDRESS": "Manage your shipping address",
+    "DEFAULT_ADDRESS": "Default Address",
+    "SET_DEFAULT": "Set as default",
+    "EDIT": "Edit",
+    "DELETE": "DELETE",
+    "ADD_ADDRESS": "Add address"
+  },
+  "DONE": {
+    "THANKS": "Thank you for shopping from perfume museum!",
+    "ORDER_PREPARE": "Your order will be prepared as soon as possible!",
+    "BACK_HOME": "Back Home",
+    "VIEW_ORDERS": "View Orders"
+  },
+  "ADDRESS_POP": {
+    "ADD_NEW_ADDRESS": "Add New Address",
+    "BOX_NUM": "Box Number",
+    "SAVE_ADDRESS": "Save Address"
+  }
+}

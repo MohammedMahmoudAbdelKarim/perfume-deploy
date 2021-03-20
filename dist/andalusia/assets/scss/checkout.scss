@@ -1,0 +1,100 @@
+#checkout {
+  background: #f7f6f2;
+  .card {
+    header {
+      h2 {
+        color: #001e0d;
+        font-size: 1.125rem;
+        font-weight: 700;
+      }
+      button {
+        color: #3b3b3b;
+        font-size: 0.875rem;
+        text-decoration: underline;
+      }
+    }
+    .checkout-header {
+      h4 {
+        font-size: 1rem;
+        color: #3b3b3b;
+        font-weight: 600;
+      }
+      span {
+        font-size: 0.875rem;
+        color: #868686;
+      }
+      p {
+        color: #e99a57;
+        font-size: 0.875rem;
+      }
+    }
+  }
+  .payment-info {
+    .cash {
+      font-size: 0.8125rem;
+      color: #e99a57 !important;
+    }
+    p {
+      color: #868686 !important;
+    }
+    .available-cards {
+      .mat-radio-button {
+        display: flex !important;
+        align-items: center;
+        border: 1px solid #efefef;
+        border-radius: 5px;
+        padding: 11px 20px;
+      }
+      .mat-radio-label-content {
+        width: 100%;
+      }
+      .mat-radio-label {
+        margin: 0;
+      }
+    }
+  }
+  .orders-details-checkout {
+    .quantity {
+      box-shadow: 0px 5px 10px #5471611a;
+    }
+    h4 {
+      color: #001e0d;
+      font-size: 1.125rem;
+      font-weight: 600;
+    }
+    span {
+      color: #3b3b3b;
+      font-size: 0.8125rem;
+    }
+    .price {
+      font-size: 0.875rem;
+      font-weight: 600;
+    }
+  }
+  .total {
+    ul {
+      li {
+        span {
+          font-weight: 600;
+        }
+        .sum {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}
+#checkout-done {
+  h2 {
+    color: #001e0d;
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  p {
+    color: #868686;
+    font-size: 1.125rem;
+  }
+  button {
+    padding: 0.8125rem 3.313rem;
+  }
+}
